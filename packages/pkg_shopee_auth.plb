@@ -4,7 +4,7 @@ create or replace PACKAGE BODY                    PKG_SHOPEE_AUTH IS
     -- CONFIGURAÇÕES GLOBAIS DA SUA APLICAÇÃO (FIXAS)
     -- ==========================================================
     --c_partner_id   CONSTANT NUMBER        := 1218643;
-    c_partner_key  CONSTANT VARCHAR2(200) := 'shpk4c4d4654437a44525446576c6e4e79626d75615574686d7777494b744b48'; 
+    c_partner_key  CONSTANT VARCHAR2(200) := '...'; 
     c_redirect_url CONSTANT VARCHAR2(500) := 'https://g52f6de2b11ee34-shophapex.adb.sa-saopaulo-1.oraclecloudapps.com/ords/wksp_shophapex/shoph/oauth';
 
     -- Define o ambiente atual
